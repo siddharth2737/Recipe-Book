@@ -9,7 +9,7 @@ const Auth = ({ setUser }) => {
       const password = "password123";
 
       const userCredential = await signInWithEmailAndPassword(auth, email, password);
-      setUser(userCredential.user); // Set the logged-in user
+      setUser(userCredential.user); 
     } catch (error) {
       console.error("Login failed:", error.message);
     }
