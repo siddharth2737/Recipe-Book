@@ -19,7 +19,7 @@ const Home = ({ searchQuery }) => {
         `https://api.spoonacular.com/recipes/complexSearch`,
         {
           params: {
-            apiKey: process.env.REACT_APP_API_KEY,
+            apiKey: "28eb062216964cb0a35395b51bd9999d",
             query,
             cuisine,
             number: 10,
