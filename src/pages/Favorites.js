@@ -1,6 +1,6 @@
 // src/components/Favorites.js
 import React, { useState, useEffect } from 'react';
-import { db, auth } from '../firebase';
+import { db } from '../firebase';
 import { collection, addDoc, getDocs, deleteDoc, doc } from 'firebase/firestore';
 
 const Favorites = ({ user }) => {
